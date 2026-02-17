@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     // Replace 'yourfile.txt' with the actual name of your file
-                    def fileContents = readFile 'hello'
+                    def fileContents = readFile 'helloworld'
                     
                     echo "--- CONTENT OF YOUR TXT FILE START ---"
                     echo fileContents
